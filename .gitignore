@@ -25,10 +25,14 @@
 /bin/*
 !bin/console
 !bin/symfony_requirements
+/vendor/
 
 # Assets and user uploads
 /web/bundles/
 /web/uploads/
+
+# Assets managed by Bower
+/web/assets/vendor/
 
 # PHPUnit
 /app/phpunit.xml
@@ -37,5 +41,30 @@
 # Build data
 /build/
 
+# Composer PHAR
+/composer.phar
+
 # Backup entities generated with doctrine:generate:entities command
 **/Entity/*~
+
+# Symfony gitignore
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/vendor/
+/web/bundles/
+
+# Dep
+bower_components
+.idea

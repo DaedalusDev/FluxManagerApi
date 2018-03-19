@@ -1,0 +1,6 @@
+root:
+    type:     rest
+    resource: ApiBundle\Controller\RootController
+mapping:
+    type:     rest
+    resource: ApiBundle\Controller\MappingController

@@ -1,0 +1,6 @@
+api:
+    resource: "@ApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+logout:
+    path: /logout
