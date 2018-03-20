@@ -113,4 +113,14 @@ class User implements UserInterface
         return $this->id;
     }
 
+    /**
+     * @param mixed $username
+     * @return User
+     */
+    public function setUsername($username)
+    {
+        $this->username = $username;
+        return $this;
+    }
+
 }

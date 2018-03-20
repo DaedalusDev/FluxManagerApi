@@ -31,11 +31,12 @@
         "twig/twig": "^1.0||^2.0",
         "friendsofsymfony/rest-bundle": "^2.1",
         "jms/serializer-bundle": "^2.0",
-        "stof/doctrine-extensions-bundle": "^1.2",
+        "stof/doctrine-extensions-bundle": "^1.2"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
-        "symfony/phpunit-bridge": "^3.0"
+        "symfony/phpunit-bridge": "^3.0",
+        "phpunit/phpunit": "^6.5"
     },
     "scripts": {
         "symfony-scripts": [
